@@ -7,9 +7,12 @@
  */
 
 namespace app\v1\controller;
+use think\Controller;
 
 
-class test
+class Test extends Controller
 {
-
+    public function hello(){
+        return 'hello world';
+    }
 }
