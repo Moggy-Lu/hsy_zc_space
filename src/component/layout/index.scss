@@ -1,0 +1,34 @@
+.header-box{
+    position: relative;
+    .titleBox{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .title{
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            justify-content:center;
+            text-align: center;
+            font-weight: 300;
+            .en-title{
+                width: 100%;
+                font-size: 35px;
+                letter-spacing: 5px;
+                border-bottom: 2px #6AD4BD solid;
+            }
+            .cn-title{
+                font-size: 20px;
+                letter-spacing: 8px;
+                width: 100%;
+                padding-top: 4px;
+            }
+        }
+    }
+}

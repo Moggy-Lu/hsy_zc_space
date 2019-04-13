@@ -1,0 +1,49 @@
+
+.nav{
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+    height: 40px;
+    align-items:center;
+    background-color:rgba(0,0,0,0);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    .left-box{
+       display: flex; 
+       align-items:center;
+       .logo-box{
+           margin-left: 40px;
+           img{
+               height: 80%;
+           }
+       }
+       ul{
+            display: flex;
+            align-items:center;
+            margin: 0px;
+            li{
+                display: inline;
+                margin-left: 50px;
+                a{
+                    text-decoration:none;
+                    span{
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                    span:hover{
+                        font-weight: 400;
+                        color: #6AD4BD;
+                    }
+                }
+            }  
+        }
+    }
+    .login{
+       margin-right: 40px;
+       margin-left: auto;
+    }
+}
